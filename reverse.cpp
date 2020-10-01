@@ -7,7 +7,7 @@ int main() {
     cout << "Enter an integer:" ;
     cin >> n;
 
-    while(n == 0) {
+    while(n != 0) {
         remainder = n%10;
         reversedNumber = reversedNumber*10 + remainder;
         n /= 10;
